@@ -1,0 +1,10 @@
+# Site settings
+title: CloudFlare Fan Club
+description: >
+  The super official CloudFlare Fan Club where we celebrate all things
+  CloudFlare.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cloudflarefanclub.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

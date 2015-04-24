@@ -22,9 +22,9 @@
       {{ content }}
     </div>
 
-    <script src="/js/JSFX_Layer.js"></script>
-    <script src="/js/JSFX_Mouse.js"></script>
-    <script src="/js/JSFX_pinwheel.js"></script>
+    <script src="{{ "/js/JSFX_Layer.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/JSFX_Mouse.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/JSFX_pinwheel.js" | prepend: site.baseurl }}"></script>
     <script>
       JSFX.Pinwheel();
     </script>

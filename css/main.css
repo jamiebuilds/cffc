@@ -2,7 +2,7 @@
 
 
 html {
-  background: orange top center repeat url(/images/background.png) fixed;
+  background: orange top center repeat url(/cffc/images/background.png) fixed;
   background-size: 100%;
 }
 
@@ -10,7 +10,7 @@ body {
   font: normal 1em/2 Papyrus, fantasy;
   background: orange;
   margin: 0;
-  background: top center repeat url(/images/matthew.png);
+  background: top center repeat url(/cffc/images/matthew.png);
   background-size: 150px;
 }
 

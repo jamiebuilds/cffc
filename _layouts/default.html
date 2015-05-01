@@ -14,6 +14,10 @@
   </head>
   <body>
 
+    <button class="hack" data-hack="miley">Miley</button>
+    <button class="hack" data-hack="goats">Goats</button>
+    <button class="hack" data-hack="zilla">Zilla</button>
+
     <div class="site__header animated pulse infinite">
       <a class="site__title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
@@ -28,5 +32,9 @@
     <script>
       JSFX.Pinwheel();
     </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/SoundJS/0.6.0/soundjs.min.js"></script>
+    <script src="{{ "/js/hacks.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>
